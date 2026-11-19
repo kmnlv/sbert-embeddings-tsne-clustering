@@ -4,12 +4,13 @@
 
 ## Overview
 
-Semantic clustering of 148 short Spanish sentences. The notebook cleans the corpus, encodes each sentence with a multilingual Sentence-BERT model, projects the embeddings to two dimensions with t-SNE, groups them with K-Means and interprets the resulting domains.
+Semantic clustering of 148 short Spanish sentences. The notebook cleans the corpus, encodes each sentence with a multilingual Sentence-BERT model, projects the embeddings to two dimensions with t-SNE, groups them with K-Means and interprets the resulting domains. A second, document-only assignment on news topic clustering with FastText embeddings and density-based clustering is included as complementary reading.
 
 ## Repository structure
 
 - `notebooks/sbert-embeddings-clustering.ipynb` - complete executed notebook.
 - `assets/tsne-sbert-clusters.png` - labeled 2D cluster plot produced by the notebook.
+- `docs/fasttext-clustering-report.pdf` - report comparing K-Means and DBSCAN on FastText embeddings.
 
 ## Method
 
